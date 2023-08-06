@@ -32,10 +32,18 @@ const EditStudent = () => {
   return (
     <>
     <form onSubmit={handlesubmit}>
-<input type="text" value={newName} onChange={(e)=>{setName(e.target.value)}}/>
-<input type="number" value={newAge} onChange={(e)=>{setAge(e.target.value)}}/>
-<input type="text" value={newBatch} onChange={(e)=>{setBatch(e.target.value)}}/>
-<input type="text" value={newCourse} onChange={(e)=>{setCourse(e.target.value)}}/>
+    <div className='lform'>
+<input type="text" id='name' value={newName} onChange={(e)=>{setName(e.target.value)}}/>
+</div>
+<div className='lform2'>
+<input type="number"id='age' value={newAge} onChange={(e)=>{setAge(e.target.value)}}/>
+</div>
+<div className='lform3'>
+<input type="text" id='course' value={newBatch} onChange={(e)=>{setBatch(e.target.value)}}/>
+</div>
+<div className='lform4'>
+<input type="text"id='batch'  value={newCourse} onChange={(e)=>{setCourse(e.target.value)}}/>
+</div>
 <button className='btn'>Update</button>
 
 <button className='btn2'>Cancel</button>

@@ -56,7 +56,7 @@ table{
   width:184px;
   height:54px;
   position:relative;
-  top:362px;
+  top:-700px;
   left:90px;
 }
 .btn:hover{
@@ -67,11 +67,68 @@ table{
   width:184px;
   height:54px;
   position:relative;
-  top:362px;
+  top:-700px;
   left:100px;
 }
 .btn2:hover{
   background-color: grey;
+}
+.lform{
+  position:relative;
+  top:200px;
+  left:50px;
+ background: transparent;
+ width: 100px;
+ height:271px;
+}
+#name{
+  width:276px;
+  height:58px;
+  position: relative;
+  top:-120px;
+}
+.lform3{
+  position:relative;
+  top:-421px;
+  left:50px;
+ background: transparent;
+ width: 100px;
+ height:271px;
+}
+#course{
+  width:276px;
+  height:58px;
+  position: relative;
+  top:100px;
+}
+.lform4{
+  position:relative;
+  top:100px;
+  left:50px;
+ background: transparent;
+ width: 100px;
+ height:271px;
+}
+#batch{
+  width:276px;
+  height:58px;
+  position: relative;
+  top:-696px;
+  left:394px;
+}
+.lform2{
+  position:relative;
+  top:-293px;
+  left:465px;
+ background: transparent;
+ width: 100px;
+ height:271px;
+}
+#age{
+  width:276px;
+  height:58px;
+  position: relative;
+  top:100px;
 }
 table
 {
@@ -100,7 +157,7 @@ td{
   width:184px;
   height:54px;
   position:relative;
-  top:362px;
+  top:-700px;
   left:90px;
 }
 .submit:hover{
