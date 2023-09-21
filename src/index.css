@@ -18,7 +18,7 @@ code {
 }
 
 body{
-  min-height: 99vh;
+  min-height: 100vh;
   background:linear-gradient(lightblue,pink,white);
 }
 .navbar{
@@ -35,10 +35,6 @@ body{
 }
 .element:hover{
   color:pink;
-}
-table{
-  border:none;
-  background-color: white;
 }
 .home{
   margin:46px;
@@ -137,8 +133,11 @@ table
     position: absolute;
     top: 180px;
     left:90px;
+    
     border-radius: 10px;
-}
+    border:none;
+    background-color: white;
+  }
 th{
     font-size: 20px;
     font-weight: 700;

@@ -33,16 +33,16 @@ return (
     <>
 <form  className='form' onSubmit={handlesubmit}>
 <div className='lform'>
-<input type="text"id='name' value={Name} onChange={(e)=>{setName(e.target.value)}}/>
+<input type="text"id='name' value={Name} onChange={(e)=>{setName(e.target.value)}} required/>
 </div>
 <div className='lform2'>
-<input type="number" id='age' value={Age} onChange={(e)=>{setAge(e.target.value)}}/>
+<input type="number" id='age' value={Age} onChange={(e)=>{setAge(e.target.value)}} required/>
 </div>
 <div className='lform3'>
-<input type="text" id='course'  value={Batch} onChange={(e)=>{setBatch(e.target.value)}}/>
+<input type="text" id='course'  value={Batch} onChange={(e)=>{setBatch(e.target.value)}} required/>
 </div>
 <div className='lform4'>
-<input type="text"id='batch' value={Course} onChange={(e)=>{setCourse(e.target.value)}}/>
+<input type="text"id='batch' value={Course} onChange={(e)=>{setCourse(e.target.value)}} required/>
 </div>
 <button className="submit">Submit</button>
 <button className='btn2'>Cancel</button>
